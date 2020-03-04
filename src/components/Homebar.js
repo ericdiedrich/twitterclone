@@ -17,4 +17,4 @@ import star from '../img/twitterstar.png';
         );
     }
 
-    export default Homebar;
+export default Homebar;
