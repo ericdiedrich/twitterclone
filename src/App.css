@@ -1,38 +1,59 @@
+/* body {
+  height: 100vh;
+  max-height: 100vh;
+} */
+
+
 .App {
-  text-align: center;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* NAVBAR CSS */
+
+.mainlogo {
+  max-width: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-left: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  max-height: 100vh;
+  width: 350px;
+  margin-left: 175px;
+  border-right: 2px solid black;
+}
+
+.atag-navbar {
+  padding-top: 2%;
+}
+
+.tweetBtn {
+  text-align: center;
+  max-width: 220px;
+  margin-top: 35px;
+  margin-left: 20px;
+  padding: 17px;
+  border-radius: 2%;
   color: white;
+  background-color: #2291DA;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* MAIN CSS */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  height: 100vh;
+  width: 750px;
+  border-right: 2px solid black;
 }

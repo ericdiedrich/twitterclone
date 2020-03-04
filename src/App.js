@@ -1,15 +1,19 @@
 import React from 'react';
-import logo from './img/twitterlogo.png';
+// import logo from './img/twitterlogo.png';
 import './App.css';
+import Nav from './components/navbar'
+import Main from './components/main'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <div className="App">
+        <Nav />
+        <Main />
+      </div>
     </div>
   );
 }
 
 export default App;
+
