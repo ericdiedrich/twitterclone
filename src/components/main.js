@@ -1,9 +1,10 @@
 import React from 'react'
+import Homebar from './Homebar'
 
 function Main() {
     return(
         <div className="mainContainer">
-           <p>Hello world</p>
+           <Homebar />
         </div>
     );
 }

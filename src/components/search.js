@@ -6,10 +6,10 @@ function Search() {
     return (
         <div className="search">
             <div className="magnify-holder" >
-                <img src={magnify} alt="magnifyglass" />
+                <img className="magnifyImg" src={magnify} alt="magnifyglass" />
             </div>
             <div className="search-holder">
-                <input placeholder="Search Twitter" />
+                <input className="searchInput" placeholder="Search Twitter" />
             </div>
         </div>
     );
