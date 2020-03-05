@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
-import Search from './components/search'
+// import Search from './components/search'
 import Nav from './components/navbar'
 import Main from './components/main'
-import WhoToFollow from './components/WhoToFollow';
+// import WhoToFollow from './components/WhoToFollow';
+import Rightside from './components/Rightside'
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Main />
-      <Search />
-      <WhoToFollow />
+      {/* <Search /> */}
+      <Rightside />
     </div>
   );
 }
