@@ -1,18 +1,15 @@
 import React from 'react';
 import magnify from '../img/search.png'
+import '../../src/App.css';
 
 
 function Search() {
     return (
         <div className="search">
-            <div className="magnify-holder" >
-                <img src={magnify} alt="magnifyglass" />
-            </div>
-            <div className="search-holder">
-                <input placeholder="Search Twitter" />
-            </div>
+            <img className="magnifyImg" src={magnify} alt="magnifyglass" />
+            <input className="searchInput" placeholder="Search Twitter" />
         </div>
     );
 }
 
-export default Search;
+export default Search;                                                                                                                          
