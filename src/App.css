@@ -81,3 +81,50 @@ input{
   width: 750px;
   border-right: 2px solid black;
 }
+
+.trends-container{
+  background-color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  height: 62vh;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.trends-top{
+  display: flex;
+  align-items: center;
+  width: 98%;
+  justify-content: space-between;
+  border-bottom: solid rgb(222, 226, 230);
+}
+
+.trends-holder{
+  align-self: stretch;
+  border-bottom: solid rgb(222, 226, 230);
+}
+
+.trends-title{
+  color: gray;
+  font-size: 15px;
+}
+
+.trends-hashtag{
+  font-weight: 900;
+}
+
+.trends-amount{
+  color: gray;
+  font-weight: 500;
+}
+
+.show-more-container{
+  height: 100px;
+  width: 400px;
+}
+
+.show-more{
+  color: blue;
+}

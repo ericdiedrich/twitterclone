@@ -3,6 +3,8 @@ import './App.css';
 import Search from './components/search'
 import Nav from './components/navbar'
 import Main from './components/main'
+import Trend from './components/trends'
+// import TrendsSingle from './components/trendssingle';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Nav />
       <Main />
       <Search />
+      <Trend />
     </div>
   );
 }
