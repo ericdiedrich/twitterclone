@@ -3,6 +3,7 @@ import './App.css';
 import Search from './components/search'
 import Nav from './components/navbar'
 import Main from './components/main'
+import WhoToFollow from './components/WhoToFollow';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav />
       <Main />
       <Search />
+      <WhoToFollow />
     </div>
   );
 }
