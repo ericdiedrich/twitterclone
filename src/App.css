@@ -18,7 +18,7 @@ input{
   border-radius: 25px;
   padding:20px;
   /* border: blue solid; */
-  width:17%;
+  width:30%;
   height: 17%;
 }
 
@@ -81,3 +81,51 @@ input{
   width: 750px;
   border-right: 2px solid black;
 }
+
+
+/* KIRSTY CSS */
+
+.starLogo{
+  /* width: 60%; */
+  /* height: 4vh; */
+  width: 70%;
+  padding-top: 5px;
+}
+
+.homebar{
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(207, 199, 199);
+  min-width: 300px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.homebar{
+  font-weight: 950;
+  width: 560px;
+  margin-left: 15px;
+  font-size: 19px;
+  margin: 0 auto;
+}
+
+.star{
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* position: relative; */
+  /* width: 95px; */
+  /* top: 12px; */
+}
+
+.home{
+  font-weight: 850;
+  width: 470px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.homebarContainer {
+  max-width: 100vw;
+}
+

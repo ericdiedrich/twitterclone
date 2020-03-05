@@ -1,0 +1,179 @@
+
+img{
+    width:20px;
+  }
+  
+  input{
+    background-color:whitesmoke;
+    border: none;
+    color:white;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  .search{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding:20px;
+    /* border: blue solid; */
+    width:30%;
+    height: 17%;
+  }
+  
+  /* body {
+    height: 100vh;
+    max-height: 100vh;
+  } */
+  
+  
+  .App {
+    display: flex;
+  }
+  
+  
+  /* NAVBAR CSS */
+  
+  .mainlogo {
+    max-width: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-left: 35px;
+  }
+  
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+    width: 350px;
+    margin-left: 175px;
+    border-right: 2px solid black;
+  }
+  
+  .atag-navbar {
+    padding-top: 2%;
+  }
+  
+  .tweetBtn {
+    text-align: center;
+    max-width: 220px;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding: 17px;
+    border-radius: 2%;
+    color: white;
+    background-color: #2291DA;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+  }
+  
+  /* MAIN CSS */
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 100vh;
+    width: 750px;
+    border-right: 2px solid black;
+  }
+  
+  
+  /* KIRSTY CSS */
+  
+  .starLogo{
+    /* width: 60%; */
+    /* height: 4vh; */
+    width: 70%;
+    padding-top: 5px;
+  }
+  
+  .homebar{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 199, 199);
+    min-width: 300px;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  
+  .homebar{
+    font-weight: 950;
+    width: 560px;
+    margin-left: 15px;
+    font-size: 19px;
+    margin: 0 auto;
+  }
+  
+  .star{
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* position: relative; */
+    /* width: 95px; */
+    /* top: 12px; */
+  }
+  
+  .home{
+    font-weight: 850;
+    width: 470px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .homebarContainer {
+    max-width: 100vw;
+  }
+  
+  .whotofollowcontainer{
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin-top: 300px;
+    background-color: rgb(236, 233, 233);
+    width: 350px;
+  }
+  
+  .profile1{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: lightgrey;
+  }
+  
+  .profile2{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: lightgrey;
+  }
+  
+  .profile3{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: lightgrey;
+  }
+  
+  .follow{
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  
+  
+  .cnprofile{
+    font-weight: 900;
+    font-size: 17px;
+  }
+  
+  .mcrdigital{
+    font-weight: 900;
+    font-size: 17px;
+  }
+  
+  .trafford{
+    font-weight: 900;
+    font-size: 17px;
+  }
