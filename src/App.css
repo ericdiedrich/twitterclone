@@ -206,3 +206,52 @@
   /* align-items: center; */
   justify-content: space-between;
 }
+
+.whotofollowcontainer{
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  margin-top: 300px;
+  background-color: rgb(236, 233, 233);
+  width: 350px;
+}
+
+.profile1{
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: lightgrey;
+}
+
+.profile2{
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: lightgrey;
+}
+
+.profile3{
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: lightgrey;
+}
+
+.follow{
+  font-weight: 900;
+  font-size: 20px;
+}
+
+
+
+.cnprofile{
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.mcrdigital{
+  font-weight: 900;
+  font-size: 17px;
+}
+
+.trafford{
+  font-weight: 900;
+  font-size: 17px;
+}
