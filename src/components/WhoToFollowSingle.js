@@ -6,7 +6,7 @@ export default function WhoToFollow() {
     return (
         <div className="followFlexContainer">
             <div>
-                <img className="profileImgFollowSection" src={profilepic}></img>
+                <img className="profileImgFollowSection" src={profilepic} alt="profilepic"></img>
             </div>
             <div className="followFlexWrapper">
                 <div className="followFlexUser">
@@ -14,7 +14,7 @@ export default function WhoToFollow() {
                         <h2 className="htagFollowSection">Manchester United</h2>
                     </div>
                     <div className="verifiedDiv">
-                        <img className="verifiedIcon" src={verified}></img>
+                        <img className="verifiedIcon" src={verified} alt="verified"></img>
                     </div>
                 </div>
                 <h4 className="htagFollowSectionUser">@ManchesterUNT</h4>

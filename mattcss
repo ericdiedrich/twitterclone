@@ -44,3 +44,31 @@
 .show-more{
   color: blue;
 }
+
+
+.show-more-container{
+  height: 100px;
+  width: 400px;
+}
+
+.show-more{
+  color: blue;
+}
+
+.copycontainer{
+  display: flex;
+  flex-direction: column;
+}
+.terms{
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hover:hover{
+  text-decoration: underline;
+}
+
+.copycontainer{
+  color: gray;
+  font-size: 15px;
+}
