@@ -1,10 +1,7 @@
 import React from 'react'
-import cn from '../img/cnprof.png'
-import mcr from '../img/mcrdigiprof.png'
-import trafford from '../img/traffcolprof.jpg'
-import profilepic from '../img/pphard.png'
-import verified from '../img/correct.png'
+
 import WhoToFollowSingle from '../components/WhoToFollowSingle'
+import Copyrights from './copyrights'
 
 export default function WhoToFollow() {
     return (
@@ -15,10 +12,11 @@ export default function WhoToFollow() {
             <WhoToFollowSingle />
             <WhoToFollowSingle />
             <WhoToFollowSingle />
-            
             <div className="whotofollow-bottom">
                 <a className="showMore">Show more</a>
             </div>
+            <Copyrights/>
+
         </div>
     )
 }

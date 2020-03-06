@@ -18,11 +18,11 @@ export default function Trends() {
             <TrendsSingle />
             <TrendsSingle />
             <TrendsSingle />
-             <div className="holder">
-            <div className="show-more-container">
-                <p className="show-more">Show more</p>
+            <div className="holder">
+                <div className="show-more-container">
+                    <p className="show-more">Show more</p>
+                </div>
             </div>
-</div> 
         </div>
     )
 }
