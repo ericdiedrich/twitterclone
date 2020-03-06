@@ -119,7 +119,7 @@
 
 .homebar{
   font-weight: 950;
-  width: 100%;
+  width: w00%;
   margin-left: 15px;
   font-size: 19px;
   margin: 0 auto;
@@ -217,7 +217,10 @@
   justify-content: space-between;
 }
 
+/* who to follow */
+
 /* .whotofollowcontainer{
+
   border-width: 1px;
   border-style: solid;
   border-color: lightgrey;
@@ -295,8 +298,6 @@
   font-size: 20px;
 }
 
-
-
 .cnprofile{
   font-weight: 900;
   font-size: 17px;
@@ -310,6 +311,64 @@
 .trafford{
   font-weight: 900;
   font-size: 17px;
+}
+
+/* submit post */
+
+.submitcontainer{
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  display: flex;
+  height: 18vh;
+  width: 740px;
+}
+
+.happeningcontent{
+  width: 450px;
+  height: 70px;
+  border-style: hidden;
+  margin-left: 15px;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+/* .posticons{
+  display: flex;
+  justify-content: space-around;
+} */
+
+.iconSubmit {
+  width: 23px;
+  
+}
+
+.submiticons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  padding-bottom: 10px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.twitprofpic{
+  margin-top: 15px;
+}
+
+.tweet-Btn{
+  font-weight: 70;
+  font-size: 20px;
+  border: solid 1px #27A1F2;
+  color: azure;
+  background-color:  #27A1F2;
 } */
 
 .verifiedIcon {
@@ -410,6 +469,43 @@
   border-bottom-right-radius: 9999px;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
+  width: 70px;
+  /* padding-left: 10px; */
+  padding-top: 3px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+/* Image Post */
+
+.postimage{
+  width: 90%;
+}
+
+.textpostContainer{
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  padding-bottom: 10px;
+}
+
+.postvideo {
+  width: 95%;
+  border-radius: 15px;
+}
+
+.postVideoWrapper {
+  width: 90%;
+}
+
+.postvideoDiv{
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
+  width: 570px;
+}
   /* padding: 17px; */
   padding-top: 5px;
   padding-bottom: 5px;
