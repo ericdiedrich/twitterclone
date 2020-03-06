@@ -5,6 +5,12 @@
   margin-right: 15px;
 }
 
+/* .magnify-holder {
+  padding: 10px;
+  margin-left: 35px;
+  margin-top: 15px;
+} */
+
 .searchInput{
   background-color:whitesmoke;
   border: none;
@@ -22,7 +28,7 @@
   margin-left: 35px;
   margin-top: 15px;
   /* border: blue solid; */
-  width:30%;
+  /* width:30%; */
   height: 17%;
 }
 
@@ -30,6 +36,10 @@
   height: 100vh;
   max-height: 100vh;
 } */
+
+.AppSearch {
+  display: flex;
+}
 
 
 .App {
@@ -52,8 +62,8 @@
   flex-direction: column;
   height: 100vh;
   max-height: 100vh;
-  width: 350px;
-  margin-left: 175px;
+  width: 300px;
+  /* margin-left: 175px; */
   border-right: 0.5px solid lightgray;
 }
 
@@ -159,7 +169,7 @@
 
 .profileImg {
   border-radius: 100%;
-  margin-left: 15px;;
+  margin-left: 15px;
 }
 
 .textpostFlexWrapper {
@@ -209,7 +219,8 @@
 
 /* who to follow */
 
-.whotofollowcontainer{
+/* .whotofollowcontainer{
+
   border-width: 1px;
   border-style: solid;
   border-color: lightgrey;
@@ -229,6 +240,52 @@
   border-top-width: 1px;
   border-color: lightgrey;
 }
+
+.trends-container{
+  background-color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  height: 62vh;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.trends-top{
+  display: flex;
+  align-items: center;
+  width: 98%;
+  justify-content: space-between;
+  border-bottom: solid rgb(222, 226, 230);
+}
+
+.trends-holder{
+  align-self: stretch;
+  border-bottom: solid rgb(222, 226, 230);
+}
+
+.trends-title{
+  color: gray;
+  font-size: 15px;
+}
+
+.trends-hashtag{
+  font-weight: 900;
+}
+
+.trends-amount{
+  color: gray;
+  font-weight: 500;
+}
+
+.show-more-container{
+  height: 100px;
+  width: 400px;
+}
+
+.show-more{
+  color: blue;
 
 .profile3{
   border-top-style: solid;
@@ -312,6 +369,102 @@
   border: solid 1px #27A1F2;
   color: azure;
   background-color:  #27A1F2;
+} */
+
+.verifiedIcon {
+  width: 90%;
+  margin-top: 40px
+}
+
+.verifiedDiv {
+  max-width: 20px;
+}
+
+.whotofollow-top {
+  background-color: #F5F8FA;
+  margin-left: 35px;
+  margin-top: 35px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  /* padding: 1px; */
+  border-bottom: 0.5px solid lightgray;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 500px;
+}
+
+.whotofollow-bottom {
+  background-color: #F5F8FA;
+  margin-left: 35px;
+  margin-bottom: 35px;
+  /* padding: 15px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 0.5px solid lightgray;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 500px;
+}
+
+.follow{
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.showMore {
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.followFlexContainer {
+  display: flex;
+  background-color: #F5F8FA;
+  margin-left: 35px;
+  width: 500px;
+}
+
+.followFlexWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.followFlexUser {
+  display: flex;
+}
+
+.htagFollowSection {
+  width: 180px;
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.htagFollowSectionUser {
+  width: 180px;
+  margin-left: 15px;
+  margin-top: 0px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.profileImgFollowSection {
+  border-radius: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.followUserDiv {
+  margin-top: 50px;
+}
+
+.followUserBtn {
+  margin-right: 20px;
+  margin-left: 25px;
+  font-weight: 70;
+  font-size: 20px;
+  border: solid 1px #27A1F2;
+  color: #27A1F2;
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
   border-top-left-radius: 9999px;
@@ -352,4 +505,78 @@
   margin-right: 25px;
   border-radius: 15px;
   width: 570px;
+}
+  /* padding: 17px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 200px;
+}
+
+/* trends */
+
+.trends-container{
+  background-color: whitesmoke;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  height: 62vh;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.trends-top{
+  display: flex;
+  align-items: center;
+  width: 98%;
+  justify-content: space-between;
+  border-bottom: solid rgb(222, 226, 230);
+}
+
+.trends-holder{
+  align-self: stretch;
+  border-bottom: solid rgb(222, 226, 230);
+}
+
+.trends-title{
+  color: gray;
+  font-size: 15px;
+}
+
+.trends-hashtag{
+  font-weight: 900;
+}
+
+.trends-amount{
+  color: gray;
+  font-weight: 500;
+}
+
+.show-more-container{
+  height: 100px;
+  width: 400px;
+}
+
+.show-more{
+  color: blue;
+}
+
+.copycontainer{
+  display: flex;
+  flex-direction: column;
+}
+.terms{
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hover:hover{
+  text-decoration: underline;
+}
+
+.copycontainer{
+  color: gray;
+  font-size: 15px;
 }

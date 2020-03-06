@@ -13,7 +13,7 @@ function Nav() {
     return(
         <div className="navContainer">
             <img className="mainlogo" alt="logo" src={mainlogo} ></img>
-            <a className="atag-navbar"><img className="mainlogo" src={homelogo} />Home</a>
+            <a className="atag-navbar"><img className="mainlogo" src={homelogo} alt="homelogo" />Home</a>
             <a><img className="mainlogo" alt="logo" src={explorelogo} />Explore</a>
             <a><img className="mainlogo" alt="logo" src={notificationslogo} />Notifications</a>
             <a><img className="mainlogo" alt="logo" src={messageslogo} />Messages</a>
