@@ -5,7 +5,6 @@ import gif from '../img/gif.png'
 import poll from '../img/poll.png'
 import emoji from '../img/smile.png'
 import pphard from '../img/pphard.png'
-import TextInput from './TextInput'
 
      function SubmitTxtBox(props,e) {
         return (

@@ -8,7 +8,7 @@ export default function Copyrights() {
                 <p className="hover">Privacy Policy</p>
                 <p className="hover">Cookies</p>
                 <p className="hover">Ads info</p>
-                <p className="hover">More</p>
+                <p className="hover">More > </p>
             </div>
                 <div>
                     © 2020 Twitter, Inc.
