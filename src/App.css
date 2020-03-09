@@ -595,6 +595,10 @@
 .terms{
   justify-content: space-between;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .hover:hover{
