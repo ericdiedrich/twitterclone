@@ -16,7 +16,7 @@ import TextInput from './TextInput'
                 </div>
                 <div className="flexContainer">
                     <div className="happening">
-                        <input onKeyPress={props.tweet} className="happeningcontent" placeholder="What's happening?" />
+                        <input onChange={props.recordtweet} onKeyPress={props.tweet} className="happeningcontent" placeholder="What's happening?" />
                     </div>
                     <div className="posticons">
                         {/* <div className="picicon">
