@@ -7,7 +7,7 @@ import emoji from '../img/smile.png'
 import pphard from '../img/pphard.png'
 import TextInput from './TextInput'
 
-     function SubmitTxtBox(props) {
+     function SubmitTxtBox(props,e) {
         return (
             <div className="submitcontainer">
                 

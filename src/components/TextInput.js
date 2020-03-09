@@ -26,7 +26,7 @@ class Textinput extends Component {
       if (e.key === "Enter"){
         this.setState({
             posts: [...this.state.posts, this.state.currentPost],
-            currentPost: { profilepic: profilepic, user: "", content: "" }
+            currentPost: { profilepic: profilepic, user: "", content: e.target.value= "" },
         })}
     }
 
@@ -68,7 +68,7 @@ class Textinput extends Component {
         )
 
         return (<div>
-            <SubmitTxtBox recordtweet={this.recordPostHandler} tweet={this.addPostHandler} />
+            <SubmitTxtBox recordtweet={this.recordPostHandler} tweet={this.addPostHandler}/>
             {/* <input onChange={this.recordPostHandler} value={this.state.currentPost.content}></input> */}
             {/* <button onClick={this.addPostHandler}>Submit</button> */}
             <div className="textpostContainer">
