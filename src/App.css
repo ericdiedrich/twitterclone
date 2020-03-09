@@ -1,8 +1,10 @@
 /* SEARCH BAR CSS */
 
 .magnifyImg{
-  width:20px;
   margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  padding-top: 4px;
 }
 
 /* .magnify-holder {
@@ -14,7 +16,7 @@
 .searchInput{
   background-color:whitesmoke;
   border: none;
-  color:white;
+  /* color:white; */
   font-size: 15px;
   outline: none;
 }
@@ -25,7 +27,7 @@
   background-color: whitesmoke;
   border-radius: 25px;
   padding: 10px;
-  margin-left: 35px;
+  margin-left: 40px;
   margin-top: 15px;
   /* border: blue solid; */
   /* width:30%; */
@@ -78,12 +80,13 @@
   margin-left: 20px;
   padding: 17px;
   border-radius: 2%;
-  color: white;
-  background-color: #2291DA;
+  /* color: white; */
+  /* background-color: #2291DA; */
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
+  display: flex;
 }
 
 /* MAIN CSS */
@@ -219,7 +222,7 @@
 
 /* who to follow */
 
-/* .whotofollowcontainer{
+.whotofollowcontainer{
 
   border-width: 1px;
   border-style: solid;
@@ -228,7 +231,7 @@
   background-color: rgb(236, 233, 233);
   width: 350px;
 }
-
+/* 
 .profile1{
   border-top-style: solid;
   border-top-width: 1px;
@@ -286,7 +289,7 @@
 
 .show-more{
   color: blue;
-
+}
 .profile3{
   border-top-style: solid;
   border-top-width: 1px;
@@ -311,7 +314,7 @@
 .trafford{
   font-weight: 900;
   font-size: 17px;
-}
+} */
 
 /* submit post */
 
@@ -321,7 +324,7 @@
   border-color: lightgrey;
   display: flex;
   height: 18vh;
-  width: 740px;
+  width: 750px;
 }
 
 .happeningcontent{
@@ -349,7 +352,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 250px;
+  width: 550px;
   padding-bottom: 10px;
 }
 
@@ -369,15 +372,20 @@
   border: solid 1px #27A1F2;
   color: azure;
   background-color:  #27A1F2;
-} */
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+} 
 
 .verifiedIcon {
-  width: 90%;
-  margin-top: 40px
+  /* width: 90px; */
+  margin-top: 40px;
+  /* margin-right: 10px; */
 }
 
 .verifiedDiv {
-  max-width: 20px;
+  max-width: 50px;
+  padding-right: 100px;
 }
 
 .whotofollow-top {
@@ -435,7 +443,7 @@
 }
 
 .htagFollowSection {
-  width: 180px;
+  width: 130px;
   margin-left: 15px;
   margin-top: 35px;
 }
@@ -456,24 +464,27 @@
 
 .followUserDiv {
   margin-top: 50px;
+  /* width: 100px; */
 }
 
 .followUserBtn {
   margin-right: 20px;
   margin-left: 25px;
-  font-weight: 70;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 23px;
   border: solid 1px #27A1F2;
   color: #27A1F2;
   border-bottom-left-radius: 9999px;
   border-bottom-right-radius: 9999px;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
-  width: 70px;
-  /* padding-left: 10px; */
+  width: 80px;
+  padding-left: 16px;
   padding-top: 3px;
   margin-left: 20px;
   text-align: center;
+  display: flex;
+  height: 4vh;
 }
 
 /* Image Post */
@@ -507,12 +518,12 @@
   width: 570px;
 }
   /* padding: 17px; */
-  padding-top: 5px;
+  /* padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 35px;
   padding-right: 35px;
   width: 200px;
-}
+} */
 
 /* trends */
 
@@ -520,12 +531,16 @@
   background-color: whitesmoke;
   font-family: 'Anton', sans-serif;
   display: flex;
-  height: 62vh;
+  height: 72vh;
   border-radius: 25px;
   align-items: center;
   flex-direction: column;
   padding: 5px;
+  margin-top: 30px;
+  margin-left: 35px;
+  width: 490px;
 }
+
 
 .trends-top{
   display: flex;
@@ -555,8 +570,9 @@
 }
 
 .show-more-container{
-  height: 100px;
+  height: 20px;
   width: 400px;
+  padding-right: 90px;
 }
 
 .show-more{

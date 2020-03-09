@@ -5,8 +5,9 @@ import gif from '../img/gif.png'
 import poll from '../img/poll.png'
 import emoji from '../img/smile.png'
 import pphard from '../img/pphard.png'
+import TextInput from './TextInput'
 
-     function SubmitTxtBox() {
+     function SubmitTxtBox(props) {
         return (
             <div className="submitcontainer">
                 
@@ -15,7 +16,7 @@ import pphard from '../img/pphard.png'
                 </div>
                 <div className="flexContainer">
                     <div className="happening">
-                        <input className="happeningcontent" placeholder="What's happening?"/>
+                        <input onKeyPress={props.tweet} className="happeningcontent" placeholder="What's happening?" />
                     </div>
                     <div className="posticons">
                         {/* <div className="picicon">

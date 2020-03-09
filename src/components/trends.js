@@ -1,5 +1,5 @@
 import React from 'react';
-import SettingsSymbol from '../img/settingssymbol.svg'
+import SettingsSymbol from '../img/settingsicon.png'
 import TrendsSingle from './trendssingle';
 
 

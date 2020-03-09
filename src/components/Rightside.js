@@ -1,6 +1,7 @@
 import React from 'react';
 import Search from '../components/search'
 import WhoToFollow from '../components/WhoToFollow'
+import Trends from './trends';
 
 function Rightside() {
     return (
@@ -8,7 +9,10 @@ function Rightside() {
             <div>
                 <Search />
             </div>
-            <div>
+            <div className="trends-div">
+                <Trends />
+            </div>
+            <div className="whotofollow-container">
                 <WhoToFollow />
             </div>
         </div>

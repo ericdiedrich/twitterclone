@@ -4,12 +4,13 @@ import Post from './Post'
 import SubmitTxtBox from './SubmitTxtBox'
 import  Imagepost from './ImagePost'
 import Videopost from './VideoPost'
+import Textinput from './TextInput'
 
 function Main() {
     return(
         <div className="mainContainer">
            <Homebar />
-           <SubmitTxtBox />
+           <Textinput />
            <Post />
            <Imagepost />
            <Videopost />

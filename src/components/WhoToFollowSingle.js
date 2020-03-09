@@ -14,7 +14,7 @@ export default function WhoToFollow() {
                         <h2 className="htagFollowSection">Manchester United</h2>
                     </div>
                     <div className="verifiedDiv">
-                        <img className="verifiedIcon" src={verified} alt="verified"></img>
+                        <img className="verifiedIcon" src={verified} alt="verified" />
                     </div>
                 </div>
                 <h4 className="htagFollowSectionUser">@ManchesterUNT</h4>
