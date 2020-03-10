@@ -12,17 +12,16 @@ function PostImage() {
     return (
         <div className="textpostContainer">
             <div className="likeContainer">
-                <img className="likeImg" src={Heart} ></img>
+                <img className="likeImg" src={Heart} alt="heart" ></img>
                 <h4 className="likeUser">adam22 liked</h4>
             </div>
             <div className="textpostFlexWrapper">
                 <div>
-                    <img className="profileImg" src={profilepic}></img>
+                    <img className="profileImg" src={profilepic} alt="profilepic"></img>
                 </div>
                 <div className="max-widthContainter">
                     <div className="flexUser">
                         <h2 className="htagMargin" >adam22</h2>
-                        <img></img>
                         <h2 className="htagMargin" >@adam22</h2>
                         <h4 className="htagMargin">.</h4>
                         <h2 className="htagMargin">8h</h2>
@@ -30,7 +29,7 @@ function PostImage() {
                     <div>
                         <p className="postContent">What people think when you tell them your a backend developer</p>
                         <div>
-                            <img className="postimage" src={funny} alt="meme image" />
+                            <img className="postimage" src={funny} alt="meme" />
                         </div>
                     </div>
                     <div className="tweetImageFlexWrapper">
