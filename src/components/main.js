@@ -1,7 +1,6 @@
 import React from 'react'
 import Homebar from './Homebar'
 import Post from './Post'
-import SubmitTxtBox from './SubmitTxtBox'
 import  Imagepost from './ImagePost'
 import Videopost from './VideoPost'
 import Textinput from './TextInput'

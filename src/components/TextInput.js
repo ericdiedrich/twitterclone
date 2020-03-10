@@ -45,7 +45,6 @@ class Textinput extends Component {
                     <div className="max-widthContainter">
                         <div className="flexUser">
                             <h2 className="htagMargin" >adam22</h2>
-                            {/* <img></img> */}
                             <h2 className="htagMargin" >@adam22</h2>
                             <h4 className="htagMargin">.</h4>
                             <h2 className="htagMargin">8h</h2>
