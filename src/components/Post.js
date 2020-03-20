@@ -37,6 +37,6 @@ function PostText() {
                 </div>
             </div>
         </div>
-        );
-    }
+    );
+}
 export default PostText;

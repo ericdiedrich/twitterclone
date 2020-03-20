@@ -49,3 +49,12 @@
                     </div>
                 </div>
             </div>
+
+
+
+            const TrendsCard = this.state.Trends.map((Trends)=>{
+        
+        
+        <p className="trends-holder">{Trends.trendstitle} {Trends.trendshashtag} {Trends.trendsamount}</p>
+        <Trends trendstitle={Trends.trendstitle} trendshashtag={Trends.trendshashtag} trendsamount={Trends.trendsamount} key={index} />
+    })
